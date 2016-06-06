@@ -1,0 +1,33 @@
+body {
+  padding: 0px;
+  font-family: arial;
+  background: #ECF4F9;
+}
+
+#root {
+  margin: auto;
+  width: 952px;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.login {
+	float: right;
+	margin-top: 17px;
+	margin-right: 35px;
+}
+
+.center {
+	text-align: center;
+	font-size: 12px;
+}
+
+.farleft{
+	margin-left: -300px;
+}
