@@ -1,20 +1,20 @@
 body {
-  padding: 0px;
-  font-family: arial;
-  background: #ECF4F9;
+	padding: 0px;
+	font-family: arial;
+	background: #ECF4F9;
 }
 
 #root {
-  margin: auto;
-  width: 952px;
+	margin: auto;
+	width: 952px;
 }
 
 .right {
-  float: right;
+	float: right;
 }
 
 .left {
-  float: left;
+	float: left;
 }
 
 .login {
@@ -28,6 +28,30 @@ body {
 	font-size: 12px;
 }
 
-.farleft{
+.farleft {
 	margin-left: -300px;
+}
+
+.noindent {
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-moz-transform:rotate(90deg); /* Firefox */
+	-webkit-transform:rotate(90deg); /* Safari and Chrome */
+	-o-transform:rotate(90deg); /* Opera */
+	position: absolute;
+	top: 200px;
+	left: -30px;
+}
+
+.indent {
+	-ms-transform:rotate(90deg); /* IE 9 */
+	-moz-transform:rotate(90deg); /* Firefox */
+	-webkit-transform:rotate(90deg); /* Safari and Chrome */
+	-o-transform:rotate(90deg); /* Opera */
+	position: absolute;
+	top: 200px;
+	left: 270px;
+}
+
+.box {
+	max-height: 300px;
 }
